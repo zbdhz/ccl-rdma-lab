@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "ranks": 16,
+  "servers": 2,
+  "nic_gbps": 100,
+  "flow_count": 7680,
+  "completed_rdma_flows": 7680,
+  "inter_server_flow_count": 960,
+  "total_flow_bytes": 157286400,
+  "collective_time_us": {
+    "allreduce_1MiB": 255.894,
+    "allreduce_4MiB": 275.912
+  },
+  "note": "CPU simulation with local send-latency unit fix; not hardware-calibrated."
+}

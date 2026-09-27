@@ -1,0 +1,4 @@
+[submodule "SimAI"]
+	path = SimAI
+	url = https://github.com/zbdhz/SimAI.git
+	branch = local-rdma

@@ -1,0 +1,22 @@
+{
+  "SimAI": {
+    "url": "https://github.com/zbdhz/SimAI.git",
+    "commit": "0154b87f3a855726a83bcbf0847cb9549cc62724",
+    "upstream_url": "https://github.com/aliyun/SimAI.git",
+    "upstream_baseline_commit": "a57d765c5478f319c5f5ab6fdc53f9cc7f461743",
+    "branch": "local-rdma"
+  },
+  "SimCCL": {
+    "url": "https://github.com/zbdhz/SimCCL.git",
+    "commit": "fd7cd57d16f9bd42e3ccb70911c977e18ec294b9",
+    "upstream_url": "https://github.com/aliyun/SimCCL",
+    "upstream_baseline_commit": "fd7cd57d16f9bd42e3ccb70911c977e18ec294b9"
+  },
+  "ns-3-alibabacloud": {
+    "url": "https://github.com/zbdhz/ns-3-alibabacloud.git",
+    "commit": "3e0c7c1bfbbe9f77890ddcf5e5b9c79fc6dd7437",
+    "upstream_url": "https://github.com/aliyun/ns-3-alibabacloud",
+    "upstream_baseline_commit": "3e0c7c1bfbbe9f77890ddcf5e5b9c79fc6dd7437",
+    "branch": "simai-lab-baseline"
+  }
+}
