@@ -86,6 +86,8 @@ CSV 中时间字段为微秒；FCT 文本的起止/持续时间字段为当前�
 
 ## 已完成的测试结果
 
+从个人 Fork 全新克隆、从零编译并运行的验证见 [独立测试报告](docs/fork-verification.md)。
+
 状态：**PASS**。已验证基线见 [`docs/validated-smoke-summary.json`](docs/validated-smoke-summary.json)；本机最近一次成功运行结果写入 `results/latest/summary.json`。
 
 | AllReduce 每 rank 消息大小 | 模型通信耗时 |
@@ -98,6 +100,8 @@ CSV 中时间字段为微秒；FCT 文本的起止/持续时间字段为当前�
 本地工程含构建产物约 820 MiB。没有额外安装系统软件包。
 
 ## 开发和同步
+
+详细操作见 [多层子模块开发指南](docs/submodule-development.md)，包含修改目录、分支、构建和逐层推送示例。
 
 仓库关系：`ccl-rdma-lab → SimAI → SimCCL / ns-3-alibabacloud`。
 修改子模块前先创建开发分支（例如 `git switch -c my-rdma-change`）。

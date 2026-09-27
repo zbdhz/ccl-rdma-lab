@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "date": "2026-09-27",
+  "method": "Fresh HTTPS clone from zbdhz repositories, clean build, smoke run and baseline comparison",
+  "verification_directory": "/home/emu/Projects/ccl-rdma-lab-verify-KM32br",
+  "sources": {
+    "ccl-rdma-lab": {
+      "url": "https://github.com/zbdhz/ccl-rdma-lab.git",
+      "commit": "7c6cd1d8382479295776fc74cd9dc7f754e01f92"
+    },
+    "SimAI": {
+      "url": "https://github.com/zbdhz/SimAI.git",
+      "commit": "0154b87f3a855726a83bcbf0847cb9549cc62724"
+    },
+    "SimCCL": {
+      "url": "https://github.com/zbdhz/SimCCL.git",
+      "commit": "fd7cd57d16f9bd42e3ccb70911c977e18ec294b9"
+    },
+    "ns-3-alibabacloud": {
+      "url": "https://github.com/zbdhz/ns-3-alibabacloud.git",
+      "commit": "3e0c7c1bfbbe9f77890ddcf5e5b9c79fc6dd7437"
+    }
+  },
+  "checks": {
+    "pinned_commits_match": true,
+    "fresh_build": true,
+    "fresh_binary_and_ns3_libraries": true,
+    "all_working_trees_clean_after_run": true,
+    "smoke_passed": true,
+    "summary_exactly_matches_baseline": true
+  },
+  "summary": {
+    "status": "PASS",
+    "ranks": 16,
+    "servers": 2,
+    "nic_gbps": 100,
+    "flow_count": 7680,
+    "completed_rdma_flows": 7680,
+    "inter_server_flow_count": 960,
+    "total_flow_bytes": 157286400,
+    "collective_time_us": {
+      "allreduce_1MiB": 255.894,
+      "allreduce_4MiB": 275.912
+    },
+    "note": "CPU simulation with local send-latency unit fix; not hardware-calibrated."
+  }
+}
